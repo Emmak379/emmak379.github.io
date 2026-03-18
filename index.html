@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Emmanuel Ochonma | Laravel Developer</title>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+        background: #0f172a;
+        color: #fff;
+        line-height: 1.6;
+    }
+
+    header {
+        padding: 20px 10%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background: #020617;
+        position: sticky;
+        top: 0;
+    }
+
+    header h2 {
+        color: #38bdf8;
+    }
+
+    nav a {
+        color: #fff;
+        margin-left: 20px;
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    nav a:hover {
+        color: #38bdf8;
+    }
+
+    section {
+        padding: 80px 10%;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 90vh;
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+        margin-bottom: 10px;
+    }
+
+    .hero span {
+        color: #38bdf8;
+    }
+
+    .btn {
+        margin-top: 20px;
+        padding: 12px 25px;
+        background: #38bdf8;
+        border: none;
+        color: #000;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5px;
+        text-decoration: none;
+        display: inline-block;
+    }
+
+    .about, .skills, .projects, .contact {
+        margin-top: 40px;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 20px;
+        color: #38bdf8;
+    }
+
+    .skills-list span {
+        display: inline-block;
+        background: #1e293b;
+        padding: 10px 15px;
+        margin: 5px;
+        border-radius: 5px;
+    }
+
+    .projects-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+    }
+
+    .project-card {
+        background: #1e293b;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .project-card h3 {
+        margin-bottom: 10px;
+    }
+
+    .contact a {
+        color: #38bdf8;
+        text-decoration: none;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background: #020617;
+        margin-top: 40px;
+    }
+
+    @media(max-width: 768px) {
+        .hero h1 {
+            font-size: 2rem;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<header>
+    <h2>Emmanuel</h2>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Hi, I'm <span>Emmanuel Ochonma</span></h1>
+    <p>Laravel Developer | Backend Engineer | API Specialist</p>
+    <a href="#contact" class="btn">Hire Me</a>
+</section>
+
+<section id="about" class="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+        I'm a passionate Laravel developer with experience building scalable web applications,
+        APIs, and backend systems. I specialize in clean code, performance optimization,
+        and secure application development.
+    </p>
+</section>
+
+<section id="skills" class="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-list">
+        <span>Laravel</span>
+        <span>PHP</span>
+        <span>MySQL</span>
+        <span>REST APIs</span>
+        <span>JavaScript</span>
+        <span>HTML & CSS</span>
+        <span>Git</span>
+        <span>cPanel</span>
+    </div>
+</section>
+
+<section id="projects" class="projects">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+        <div class="project-card">
+            <h3>Investment Platform</h3>
+            <p>Automated investment system with user dashboard and payment integration.</p>
+        </div>
+        <div class="project-card">
+            <h3>Crypto Payment System</h3>
+            <p>Laravel-based crypto payment gateway with wallet tracking and invoices.</p>
+        </div>
+        <div class="project-card">
+            <h3>Logistics Website</h3>
+            <p>Full-stack logistics platform with tracking and admin management.</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2 class="section-title">Contact</h2>
+    <p>Email: <a href="mailto:your@email.com">your@email.com</a></p>
+    <p>Phone: <a href="#">+234 XXX XXX XXXX</a></p>
+</section>
+
+<footer>
+    <p>© 2026 Emmanuel Ochonma | Laravel Developer</p>
+</footer>
+
+</body>
+</html>
